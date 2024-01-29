@@ -27,19 +27,25 @@ var weathers = [
 struct DemoWeather: View {
     var body: some View {
 //        scrollview pour choisir l'axe de scroll
-        ScrollView(.horizontal){
-            HStack{
+//        ScrollView(.horizontal){
+            VStack{
 //                forEach pour être plus libre que List qui est uniquement vertical et sans formatage possible
-                ForEach(weathers){ element in
-                    HStack{
-                        Image(systemName: element.emoji)
-                            .foregroundColor(element.couleur)
-                        Text(element.nom)
-                            .foregroundColor(element.couleur)
+                NavigationStack{
+                    ForEach(weathers){ element in
+                        NavigationLink(destination: ScreenWeatherChild(weatherChild: Weather(
+                            nom: element.nom, emoji: element.emoji, couleur: element.couleur)), label: {
+                            HStack{
+                                Image(systemName: element.emoji)
+                                    .foregroundColor(element.couleur)
+                                Text(element.nom)
+                                    .foregroundColor(element.couleur)
+                            }.padding()
+                            .font(.system(size: 25))
+                        })
                     }
                 }
             }
-        }
+//        }
     }
 }
 #Preview {

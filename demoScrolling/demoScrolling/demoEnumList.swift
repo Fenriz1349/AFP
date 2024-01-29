@@ -41,7 +41,7 @@ func generateWeek() ->[Day]{
     return liste
 }
 var days = generateWeek()
-struct ContentView: View {
+struct demoEnumList: View {
     
     var body: some View {
         VStack {
@@ -58,5 +58,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    demoEnumList()
 }

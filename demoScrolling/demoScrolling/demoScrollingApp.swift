@@ -11,7 +11,7 @@ import SwiftUI
 struct demoScrollingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            demoEnumList()
         }
     }
 }
