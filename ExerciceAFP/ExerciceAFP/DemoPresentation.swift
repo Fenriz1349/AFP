@@ -30,8 +30,8 @@ struct DemoPresentation: View {
                            brightness: 0.4)
     var body: some View {
         ZStack{
-            bckgdColor
-                .ignoresSafeArea()
+            Color("BckColor")
+//                .ignoresSafeArea()
             VStack {
                 Image("photoProfil")
                     .resizable()

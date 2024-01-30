@@ -22,10 +22,10 @@ struct ScreenA: View {
         NavigationStack{
             NavigationLink(destination: ScreenB(catParam : Cat(
                 name :"Batman",age:4)), label: {
-                Text("Go to Screen B")
+                Text("Go to Screen Chat")
             })
            NavigationLink(destination: ScreenC(ownerParam : Owner(name: "Fen", adress: "chez lui même", age: 35)), label: {
-               Text("Go to Screen C")
+               Text("Go to Screen Propriétaire")
            })
         }
     }
