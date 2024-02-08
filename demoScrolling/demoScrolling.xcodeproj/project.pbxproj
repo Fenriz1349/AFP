@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1040192B737E87006BC278 /* TEst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1040182B737E87006BC278 /* TEst.swift */; };
 		5BF6A22B2B63E3480096A530 /* demoScrollingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF6A22A2B63E3480096A530 /* demoScrollingApp.swift */; };
 		5BF6A22D2B63E3480096A530 /* demoEnumList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF6A22C2B63E3480096A530 /* demoEnumList.swift */; };
 		5BF6A22F2B63E34A0096A530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF6A22E2B63E34A0096A530 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B1040182B737E87006BC278 /* TEst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEst.swift; sourceTree = "<group>"; };
 		5BF6A2272B63E3480096A530 /* demoScrolling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demoScrolling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF6A22A2B63E3480096A530 /* demoScrollingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoScrollingApp.swift; sourceTree = "<group>"; };
 		5BF6A22C2B63E3480096A530 /* demoEnumList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoEnumList.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				5BF6A23A2B64085A0096A530 /* DemoContact.swift */,
 				5BF6A22E2B63E34A0096A530 /* Assets.xcassets */,
 				5BF6A2302B63E34A0096A530 /* Preview Content */,
+				5B1040182B737E87006BC278 /* TEst.swift */,
 			);
 			path = demoScrolling;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				5BF6A27A2B67E2890096A530 /* ScreenWeatherChild.swift in Sources */,
 				5BF6A2392B6400640096A530 /* weatherList.swift in Sources */,
 				5BF6A23B2B64085A0096A530 /* DemoContact.swift in Sources */,
+				5B1040192B737E87006BC278 /* TEst.swift in Sources */,
 				5BF6A22D2B63E3480096A530 /* demoEnumList.swift in Sources */,
 				5BF6A22B2B63E3480096A530 /* demoScrollingApp.swift in Sources */,
 			);
